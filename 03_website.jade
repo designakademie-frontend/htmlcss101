@@ -2,6 +2,7 @@
 html
     head
         title CSS-School #03 Website
+        link(rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/normalize/4.1.1/normalize.css')
         link(rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css')
         style.
             body {
@@ -36,7 +37,6 @@ html
             li Was war letzte Woche?
             li Vortrag
             li CSS Selektoren-Spiel: der menschliche Körper
-            li Was sind CSS Rules
             li Der menschliche Körper mit CSS
             li Website
                 ul
@@ -44,6 +44,7 @@ html
                         br
                         a(href="https://nodejs.org/en/") Install node
                         pre sudo npm install -g harp
+                        pre sudo npm install -g browser-sync
                         pre harp server & browser-sync start --proxy 'localhost:9000' --files '**/*.html, **/*.jade, **/*.md, **/*.scss', **.*.svg, **.*.jpg, **.*.png, **.*.gif, **.*.md, **.*.css
                     li Responsive Typografie
                         img(src="https://raw.githubusercontent.com/seaneking/postcss-responsive-type/master/demo.gif?raw=true")
