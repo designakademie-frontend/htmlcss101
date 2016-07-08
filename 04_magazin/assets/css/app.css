@@ -1,0 +1,44 @@
+/*
+green #414E25
+
+red #DE550F
+
+blue #0001FA
+
+creme #EAE9D5
+rgb
+
+rgba
+
+lsa
+
+*/
+
+@font-face {
+    font-family: 'latohairline';
+    src: url('../fonts/lato-hai-webfont.woff2') format('woff2'),
+         url('../fonts/lato-hai-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body {
+    font-family: "latohairline";
+    text-align: center;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 900;
+}
+
+.nav-main {
+    background: #414E25;
+    color: white;
+}
+.nav-main
